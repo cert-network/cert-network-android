@@ -1,0 +1,389 @@
+<resources>
+
+
+    <!-- ================ Active Color ===========================================================-->
+    <style name="AppTextView.SecondaryFont.Active.Headline1" parent="AppTextView.SecondaryFont.BlackActive.Headline1">
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Active.Headline2" parent="AppTextView.SecondaryFont.BlackActive.Headline2">
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Active.Headline3" parent="AppTextView.SecondaryFont.BlackActive.Headline3">
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Active.Headline4" parent="AppTextView.SecondaryFont.BlackActive.Headline4">
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Active.Headline5" parent="AppTextView.SecondaryFont.BlackActive.Headline5">
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Active.Headline6" parent="AppTextView.SecondaryFont.BlackActive.Headline6">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Active.SubTitle1" parent="AppTextView.SecondaryFont.BlackActive.SubTitle1">
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Active.SubTitle2" parent="AppTextView.SecondaryFont.BlackActive.SubTitle2">
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Active.Body1" parent="AppTextView.SecondaryFont.BlackActive.Body1">
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Active.Body2" parent="AppTextView.SecondaryFont.BlackActive.Body2">
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Active.Button" parent="AppTextView.SecondaryFont.BlackActive.Button">
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Active.Button.AllCap">
+        <item name="android:textColor">?attr/colorTextActive</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Active.Caption" parent="AppTextView.SecondaryFont.BlackActive.Caption">
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Active.Overline" parent="AppTextView.SecondaryFont.BlackActive.Overline">
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Active.Overline.AllCap">
+        <item name="android:textColor">?attr/colorTextActive</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <!-- ================ Inactive Color ===========================================================-->
+    <style name="AppTextView.SecondaryFont.Inactive.Headline1" parent="AppTextView.SecondaryFont.BlackInactive.Headline1">
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Inactive.Headline2" parent="AppTextView.SecondaryFont.BlackInactive.Headline2">
+        <item name="android:textColor">?attr/colorTextInactive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Inactive.Headline3" parent="AppTextView.SecondaryFont.BlackInactive.Headline3">
+        <item name="android:textColor">?attr/colorTextInactive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Inactive.Headline4" parent="AppTextView.SecondaryFont.BlackInactive.Headline4">
+        <item name="android:textColor">?attr/colorTextInactive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Inactive.Headline5" parent="AppTextView.SecondaryFont.BlackInactive.Headline5">
+        <item name="android:textColor">?attr/colorTextInactive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Inactive.Headline6" parent="AppTextView.SecondaryFont.BlackInactive.Headline6">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?attr/colorTextInactive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Inactive.SubTitle1" parent="AppTextView.SecondaryFont.BlackInactive.SubTitle1">
+        <item name="android:textColor">?attr/colorTextInactive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Inactive.SubTitle2" parent="AppTextView.SecondaryFont.BlackInactive.SubTitle2">
+        <item name="android:textColor">?attr/colorTextInactive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Inactive.Body1" parent="AppTextView.SecondaryFont.BlackInactive.Body1">
+        <item name="android:textColor">?attr/colorTextInactive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Inactive.Body2" parent="AppTextView.SecondaryFont.BlackInactive.Body2">
+        <item name="android:textColor">?attr/colorTextInactive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Inactive.Button" parent="AppTextView.SecondaryFont.BlackInactive.Button">
+        <item name="android:textColor">?attr/colorTextInactive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Inactive.Button.AllCap">
+        <item name="android:textColor">?attr/colorTextInactive</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Inactive.Caption" parent="AppTextView.SecondaryFont.BlackInactive.Caption">
+        <item name="android:textColor">?attr/colorTextInactive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Inactive.Overline" parent="AppTextView.SecondaryFont.BlackInactive.Overline">
+        <item name="android:textColor">?attr/colorTextInactive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Inactive.Overline.AllCap">
+        <item name="android:textColor">?attr/colorTextInactive</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- ================ Disabled Color ===========================================================-->
+    <style name="AppTextView.SecondaryFont.Disabled.Headline1" parent="AppTextView.SecondaryFont.BlackDisabled.Headline1">
+        <item name="android:textColor">?attr/colorTextActive</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Disabled.Headline2" parent="AppTextView.SecondaryFont.BlackDisabled.Headline2">
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Disabled.Headline3" parent="AppTextView.SecondaryFont.BlackDisabled.Headline3">
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Disabled.Headline4" parent="AppTextView.SecondaryFont.BlackDisabled.Headline4">
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Disabled.Headline5" parent="AppTextView.SecondaryFont.BlackDisabled.Headline5">
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Disabled.Headline6" parent="AppTextView.SecondaryFont.BlackDisabled.Headline6">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Disabled.SubTitle1" parent="AppTextView.SecondaryFont.BlackDisabled.SubTitle1">
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Disabled.SubTitle2" parent="AppTextView.SecondaryFont.BlackDisabled.SubTitle2">
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Disabled.Body1" parent="AppTextView.SecondaryFont.BlackDisabled.Body1">
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Disabled.Body2" parent="AppTextView.SecondaryFont.BlackDisabled.Body2">
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Disabled.Button" parent="AppTextView.SecondaryFont.BlackDisabled.Button">
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Disabled.Button.AllCap">
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Disabled.Caption" parent="AppTextView.SecondaryFont.BlackDisabled.Caption">
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Disabled.Overline" parent="AppTextView.SecondaryFont.BlackDisabled.Overline">
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.Disabled.Overline.AllCap">
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+
+    <!-- ================ Disabled Color ===========================================================-->
+    <style name="AppTextView.SecondaryFont.DisabledExtra.Headline1" parent="AppTextView.SecondaryFont.BlackDisabled.Headline1">
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.DisabledExtra.Headline2" parent="AppTextView.SecondaryFont.BlackDisabled.Headline2">
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.DisabledExtra.Headline3" parent="AppTextView.SecondaryFont.BlackDisabled.Headline3">
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.DisabledExtra.Headline4" parent="AppTextView.SecondaryFont.BlackDisabled.Headline4">
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.DisabledExtra.Headline5" parent="AppTextView.SecondaryFont.BlackDisabled.Headline5">
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.DisabledExtra.Headline6" parent="AppTextView.SecondaryFont.BlackDisabled.Headline6">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.DisabledExtra.SubTitle1" parent="AppTextView.SecondaryFont.BlackDisabled.SubTitle1">
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.DisabledExtra.SubTitle2" parent="AppTextView.SecondaryFont.BlackDisabled.SubTitle2">
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.DisabledExtra.Body1" parent="AppTextView.SecondaryFont.BlackDisabled.Body1">
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.DisabledExtra.Body2" parent="AppTextView.SecondaryFont.BlackDisabled.Body2">
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.DisabledExtra.Button" parent="AppTextView.SecondaryFont.BlackDisabled.Button">
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.DisabledExtra.Button.AllCap">
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.DisabledExtra.Caption" parent="AppTextView.SecondaryFont.BlackDisabled.Caption">
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.DisabledExtra.Overline" parent="AppTextView.SecondaryFont.BlackDisabled.Overline">
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.DisabledExtra.Overline.AllCap">
+        <item name="android:textColor">?attr/colorTextDisabledExtra</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+
+
+    <!-- ================ Secondary Color ===========================================================-->
+    <style name="AppTextView.SecondaryFont.SecondaryColor.Headline1" parent="AppTextView.SecondaryFont.BlackDisabled.Headline1">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.SecondaryColor.Headline2" parent="AppTextView.SecondaryFont.BlackDisabled.Headline2">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.SecondaryColor.Headline3" parent="AppTextView.SecondaryFont.BlackDisabled.Headline3">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.SecondaryColor.Headline4" parent="AppTextView.SecondaryFont.BlackDisabled.Headline4">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.SecondaryColor.Headline5" parent="AppTextView.SecondaryFont.BlackDisabled.Headline5">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.SecondaryColor.Headline6" parent="AppTextView.SecondaryFont.BlackDisabled.Headline6">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.SecondaryColor.SubTitle1" parent="AppTextView.SecondaryFont.BlackDisabled.SubTitle1">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.SecondaryColor.SubTitle2" parent="AppTextView.SecondaryFont.BlackDisabled.SubTitle2">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.SecondaryColor.Body1" parent="AppTextView.SecondaryFont.BlackDisabled.Body1">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.SecondaryColor.Body2" parent="AppTextView.SecondaryFont.BlackDisabled.Body2">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.SecondaryColor.Button" parent="AppTextView.SecondaryFont.BlackDisabled.Button">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.SecondaryColor.Button.AllCap" parrent="AppTextView.SecondaryFont.BlackDisabled.Button.AllCap">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.SecondaryColor.Caption" parent="AppTextView.SecondaryFont.BlackDisabled.Caption">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.SecondaryColor.Overline" parent="AppTextView.SecondaryFont.BlackDisabled.Overline">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.SecondaryColor.Overline.AllCap" parrent="AppTextView.SecondaryFont.BlackDisabled.Overline.AllCap">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+
+    <!-- ================ Caution Color ===========================================================-->
+    <style name="AppTextView.SecondaryFont.CautionColor.Headline1" parent="AppTextView.SecondaryFont.BlackDisabled.Headline1">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.CautionColor.Headline2" parent="AppTextView.SecondaryFont.BlackDisabled.Headline2">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.CautionColor.Headline3" parent="AppTextView.SecondaryFont.BlackDisabled.Headline3">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.CautionColor.Headline4" parent="AppTextView.SecondaryFont.BlackDisabled.Headline4">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.CautionColor.Headline5" parent="AppTextView.SecondaryFont.BlackDisabled.Headline5">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.CautionColor.Headline6" parent="AppTextView.SecondaryFont.BlackDisabled.Headline6">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.CautionColor.SubTitle1" parent="AppTextView.SecondaryFont.BlackDisabled.SubTitle1">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.CautionColor.SubTitle2" parent="AppTextView.SecondaryFont.BlackDisabled.SubTitle2">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.CautionColor.Body1" parent="AppTextView.SecondaryFont.BlackDisabled.Body1">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.CautionColor.Body2" parent="AppTextView.SecondaryFont.BlackDisabled.Body2">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.CautionColor.Button" parent="AppTextView.SecondaryFont.BlackDisabled.Button">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.CautionColor.Button.AllCap" parrent="AppTextView.SecondaryFont.BlackDisabled.Button.AllCap">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.CautionColor.Caption" parent="AppTextView.SecondaryFont.BlackDisabled.Caption">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.CautionColor.Overline" parent="AppTextView.SecondaryFont.BlackDisabled.Overline">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.CautionColor.Overline.AllCap" parrent="AppTextView.SecondaryFont.BlackDisabled.Overline.AllCap">
+        <item name="android:textColor">@color/text_caution</item>
+    </style>
+
+</resources>

@@ -1,0 +1,149 @@
+<resources>
+
+    <!-- ================ White Active ===========================================================-->
+    <style name="AppTextView.PrimaryFont.WhiteActive.Headline1" parent="MaterialTextView.Roboto.WhiteActive.Headline1">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteActive.Headline2" parent="MaterialTextView.Roboto.WhiteActive.Headline2">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteActive.Headline3" parent="MaterialTextView.Roboto.WhiteActive.Headline3">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteActive.Headline4" parent="MaterialTextView.Roboto.WhiteActive.Headline4">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteActive.Headline5" parent="MaterialTextView.Roboto.WhiteActive.Headline5">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteActive.Headline6" parent="MaterialTextView.Roboto.WhiteActive.Headline6">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteActive.SubTitle1" parent="MaterialTextView.Roboto.WhiteActive.SubTitle1">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteActive.SubTitle2" parent="MaterialTextView.Roboto.WhiteActive.SubTitle2">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteActive.Body1" parent="MaterialTextView.Roboto.WhiteActive.Body1">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteActive.Body2" parent="MaterialTextView.Roboto.WhiteActive.Body2">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteActive.Button" parent="MaterialTextView.Roboto.WhiteActive.Button">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteActive.Button.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteActive.Caption" parent="MaterialTextView.Roboto.WhiteActive.Caption">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteActive.Overline" parent="MaterialTextView.Roboto.WhiteActive.Overline">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteActive.Overline.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <!-- ================ White Inactive ===========================================================-->
+    <style name="AppTextView.PrimaryFont.WhiteInactive.Headline1" parent="MaterialTextView.Roboto.WhiteInactive.Headline1">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteInactive.Headline2" parent="MaterialTextView.Roboto.WhiteInactive.Headline2">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteInactive.Headline3" parent="MaterialTextView.Roboto.WhiteInactive.Headline3">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteInactive.Headline4" parent="MaterialTextView.Roboto.WhiteInactive.Headline4">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteInactive.Headline5" parent="MaterialTextView.Roboto.WhiteInactive.Headline5">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteInactive.Headline6" parent="MaterialTextView.Roboto.WhiteInactive.Headline6">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteInactive.SubTitle1" parent="MaterialTextView.Roboto.WhiteInactive.SubTitle1">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteInactive.SubTitle2" parent="MaterialTextView.Roboto.WhiteInactive.SubTitle2">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteInactive.Body1" parent="MaterialTextView.Roboto.WhiteInactive.Body1">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteInactive.Body2" parent="MaterialTextView.Roboto.WhiteInactive.Body2">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteInactive.Button" parent="MaterialTextView.Roboto.WhiteInactive.Button">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteInactive.Button.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteInactive.Caption" parent="MaterialTextView.Roboto.WhiteInactive.Caption">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteInactive.Overline" parent="MaterialTextView.Roboto.WhiteInactive.Overline">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteInactive.Overline.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <!-- ================ White Disable ===========================================================-->
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.Headline1" parent="MaterialTextView.Roboto.WhiteDisabled.Headline1">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.Headline2" parent="MaterialTextView.Roboto.WhiteDisabled.Headline2">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.Headline3" parent="MaterialTextView.Roboto.WhiteDisabled.Headline3">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.Headline4" parent="MaterialTextView.Roboto.WhiteDisabled.Headline4">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.Headline5" parent="MaterialTextView.Roboto.WhiteDisabled.Headline5">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.Headline6" parent="MaterialTextView.Roboto.WhiteDisabled.Headline6">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.SubTitle1" parent="MaterialTextView.Roboto.WhiteDisabled.SubTitle1">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.SubTitle2" parent="MaterialTextView.Roboto.WhiteDisabled.SubTitle2">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.Body1" parent="MaterialTextView.Roboto.WhiteDisabled.Body1">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.Body2" parent="MaterialTextView.Roboto.WhiteDisabled.Body2">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.Button" parent="MaterialTextView.Roboto.WhiteDisabled.Button">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.Button.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.Caption" parent="MaterialTextView.Roboto.WhiteDisabled.Caption">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.Overline" parent="MaterialTextView.Roboto.WhiteDisabled.Overline">
+    </style>
+
+    <style name="AppTextView.PrimaryFont.WhiteDisabled.Overline.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

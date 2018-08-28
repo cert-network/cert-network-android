@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/put_info_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/put_info_coordinator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/put_info_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/create_account_ic_back"
+                    style="@style/AppIconToolbar.LargeTouch"
+                    android:layout_marginBottom="@dimen/padding_margin"
+                    android:layout_marginStart="@dimen/padding_margin_small"
+                    android:layout_marginTop="@dimen/padding_margin"
+                    android:fitsSystemWindows="true"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_back" />
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/put_info_tv_title"
+                    style="@style/AppTextView.SecondaryFont.BlackInactive.Headline5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_margin_huge_x"
+                    android:layout_marginEnd="@dimen/padding_margin_xx"
+                    android:layout_marginStart="@dimen/padding_margin_xx"
+                    android:gravity="center"
+                    android:text="@string/create_account_put_info_title"
+                    app:layout_constraintBottom_toTopOf="@+id/put_info_name_container"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/create_account_ic_back"
+                    app:layout_constraintVertical_bias="0.4"
+                    app:layout_constraintVertical_chainStyle="packed" />
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/put_info_name_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/padding_margin_xx"
+                    android:layout_marginStart="@dimen/padding_margin_xx"
+                    android:layout_marginTop="@dimen/padding_margin_x"
+                    app:layout_constraintBottom_toTopOf="@+id/put_info_phone_number_container"
+                    app:layout_constraintTop_toBottomOf="@+id/put_info_tv_title">
+
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/put_info_ic_name"
+                        style="@style/AppIcon.Inactive"
+                        android:layout_marginTop="20dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_person_outline" />
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/put_info_edt_layout_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/padding_margin"
+                        app:errorEnabled="true"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/put_info_ic_name"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/put_info_edt_name"
+                            style="@style/AppTextView.PrimaryFont.Active.Body1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/create_account_put_info_name_hint"
+                            android:singleLine="true" />
+
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </android.support.constraint.ConstraintLayout>
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/put_info_phone_number_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_margin_xx"
+                    android:layout_marginEnd="@dimen/padding_margin_xx"
+                    android:layout_marginStart="@dimen/padding_margin_xx"
+                    android:layout_marginTop="@dimen/padding_margin_x"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/put_info_name_container">
+
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/put_info_ic_phone_number"
+                        style="@style/AppIcon.Inactive"
+                        android:layout_marginTop="20dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_phone" />
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/put_info_edt_layout_phone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/padding_margin"
+                        app:errorEnabled="true"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/put_info_ic_phone_number"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <android.support.v7.widget.AppCompatEditText
+                            android:id="@+id/put_info_edt_phone"
+                            style="@style/AppTextView.PrimaryFont.Active.Body1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/create_account_put_info_phone_number_hint"
+                            android:imeOptions="actionDone"
+                            android:inputType="phone"
+                            android:singleLine="true" />
+
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </android.support.constraint.ConstraintLayout>
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.app.blockchain.certnetwork.appcommon.widgets.AppMaterialButton
+            android:id="@+id/put_info_btn_bottom_next"
+            style="@style/AppButton.BottomBlue"
+            android:text="@string/next" />
+
+
+    </FrameLayout>
+
+
+</LinearLayout>
+

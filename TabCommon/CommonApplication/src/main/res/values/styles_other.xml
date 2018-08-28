@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PullRefreshLayout">
+        <item name="progressColor1">@color/text_caution</item>
+        <item name="progressColor2">@color/text_success</item>
+        <item name="progressColor3">@color/text_error</item>
+        <item name="progressColor4">@color/secondary_500</item>
+    </style>
+
+    <style name="Divider.Horizontal" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/default_divider_size</item>
+        <item name="android:minHeight">@dimen/default_divider_size</item>
+        <item name="android:background">?attr/colorDivider</item>
+    </style>
+
+</resources>

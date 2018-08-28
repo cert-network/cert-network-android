@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WalletAddressTextView">
+        <attr name="textSecondaryColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PullRefreshLayout">
+        <attr name="refreshType" format="enum">
+            <enum name="material" value="0" />
+            <enum name="ring" value="1" />
+            <enum name="smartisan" value="2" />
+        </attr>
+        <attr name="refreshColors" format="reference" />
+        <attr name="refreshColor" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PullRefreshNotMoveDownLayout">
+        <attr name="progressColor1" format="reference" />
+        <attr name="progressColor2" format="reference" />
+        <attr name="progressColor3" format="reference" />
+        <attr name="progressColor4" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ConfirmCodeView">
+        <attr name="countDownTimeSecond" format="integer" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="AppToolbar">
+        <attr name="toolbarTitleColor" format="color" />
+        <attr name="toolbarBackColor" format="color" />
+        <attr name="toolbarPrimaryIcon" format="reference" />
+        <attr name="toolbarSecondaryIcon" format="reference" />
+        <attr name="toolbarShowShadow" format="boolean" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="AppButtonView">
+        <attr name="pushDownScale" format="float" />
+        <attr name="enablePushDown" format="boolean" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="ThemeAttr">
+        <attr name="colorToolbar" format="reference" />
+        <attr name="colorToolbarScrim" format="reference" />
+        <attr name="colorBottomBar" format="reference" />
+
+        <attr name="colorBackgroundActivity" format="reference" />
+        <attr name="colorBackgroundActivityOverlay" format="reference" />
+
+        <attr name="colorSurface" format="reference" />
+
+        <attr name="colorPrimaryLight" format="reference"/>
+
+        <attr name="colorSecondaryLight" format="reference"/>
+        <!--<attr name="colorSecondary" format="reference"/>-->
+        <attr name="colorSecondaryDark" format="reference"/>
+
+        <attr name="colorTextActive" format="reference" />
+        <attr name="colorTextInactive" format="reference" />
+        <attr name="colorTextDisabled" format="reference" />
+        <attr name="colorTextDisabledExtra" format="reference" />
+
+        <attr name="colorIconActive" format="reference" />
+        <attr name="colorIconInactive" format="reference" />
+        <attr name="colorIconDisabled" format="reference" />
+        <attr name="colorIconDisabledExtra" format="reference" />
+
+
+        <attr name="colorDivider" format="reference" />
+
+
+    </declare-styleable>
+
+</resources>

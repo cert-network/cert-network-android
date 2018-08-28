@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">@color/base_color_black_alpha_100</color>
+    <color name="translucent">#80000000</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="overlay_black">@color/base_color_black_alpha_50</color>
+    <color name="overlay_white">@color/base_color_white_alpha_50</color>
+
+    <color name="primary_light">@color/primary_700</color>
+    <color name="primary">@color/primary_800</color>
+    <color name="primary_dark">@color/primary_900</color>
+
+    <color name="secondary_light">@color/secondary_300</color>
+    <color name="secondary">@color/secondary_500</color>
+    <color name="secondary_dark">@color/secondary_700</color>
+
+
+    <color name="accent_light">@color/secondary_A200</color>
+    <color name="accent">@color/secondary_A400</color>
+    <color name="accent_dark">@color/secondary_A700</color>
+
+
+    <color name="background_white">@color/base_color_white_alpha_100</color>
+    <color name="background_white_overlay">@color/base_color_white_alpha_60</color>
+    <color name="background_splash_screen">@color/primary</color>
+
+    <color name="surface_white">#FCFCFC</color>
+
+    <color name="text_secondary">@color/secondary_600</color>
+
+    <color name="text_error">@color/base_error</color>
+    <color name="text_success">@color/base_success_dark</color>
+    <color name="text_caution">@color/base_text_caution</color>
+
+    <color name="text_active_black">@color/md_text_color_active_light_theme</color>
+    <color name="text_inactive_black">@color/md_text_color_inactive_light_theme</color>
+    <color name="text_disabled_black">@color/md_text_color_disabled_light_theme</color>
+
+    <color name="text_active_white">@color/md_text_color_active_dark_theme</color>
+    <color name="text_inactive_white">@color/md_text_color_inactive_dark_theme</color>
+    <color name="text_disabled_white">@color/md_text_color_disabled_dark_theme</color>
+
+    <color name="icon_active_black">@color/md_icon_color_active_light_theme</color>
+    <color name="icon_inactive_black">@color/md_icon_color_inactive_light_theme</color>
+    <color name="icon_disabled_black">@color/md_icon_color_disabled_light_theme</color>
+
+    <color name="icon_active_white">@color/md_icon_color_active_dark_theme</color>
+    <color name="icon_inactive_white">@color/md_icon_color_inactive_dark_theme</color>
+    <color name="icon_disabled_white">@color/md_icon_color_disabled_dark_theme</color>
+
+    <color name="icon_error">@color/base_error</color>
+    <color name="icon_success">@color/base_success</color>
+
+    <color name="divider_black">@color/md_divider_black</color>
+    <color name="divider_white">@color/md_divider_white</color>
+
+    <color name="item_selected_normal_black">@color/base_color_black_alpha_10</color>
+    <color name="item_selected_normal_white">@color/base_color_white_alpha_10</color>
+    <color name="item_selected_pressed_black">@color/base_color_black_alpha_20</color>
+    <color name="item_selected_pressed_white">@color/base_color_white_alpha_20</color>
+
+
+    <color name="snackbar_text">@color/base_color_white_alpha_100</color>
+    <color name="alert_snackbar_success">@color/base_success</color>
+    <color name="alert_snackbar_error">@color/base_error</color>
+    <color name="alert_snackbar_caution">@color/base_caution</color>
+    <color name="alert_snackbar_info">@color/base_info</color>
+    <color name="alert_snackbar_message">@color/md_text_color_active_light_theme</color>
+
+    <color name="button_blue">@color/secondary_500</color>
+    <color name="button_blue_selected">@color/secondary_700</color>
+    <color name="button_grey_light">@color/primary_400</color>
+
+    <!-- ===================== Base =============================================================-->
+    <color name="base_text_success">#43BF58</color>
+    <color name="base_text_caution">#FFAA00</color>
+
+    <color name="base_success_extra_light">#91faa2</color>
+    <color name="base_success_light">#67e67c</color>
+    <color name="base_success">#47CC5D</color>
+    <color name="base_success_dark">#2db343</color>
+    <color name="base_error_extra_light">#ff8e8c</color>
+    <color name="base_error_light">#ff5c59</color>
+    <color name="base_error">#E53935</color>
+    <color name="base_error_dark">#d92a27</color>
+    <color name="base_caution">#F9A825</color>
+    <color name="base_caution_dark">#F9A825</color>
+    <color name="base_info">#2196F3</color>
+    <color name="base_info_dark">#2196F3</color>
+
+    <color name="primary_50">#ffF9F9F9</color>
+    <color name="primary_100">#ffF3F3F3</color>
+    <color name="primary_200">#ffEBEBEB</color>
+    <color name="primary_300">#ffDCDCDC</color>
+    <color name="primary_400">#ffB9B9B9</color>
+    <color name="primary_500">#ff999999</color>
+    <color name="primary_600">#ff707070</color>
+    <color name="primary_700">#ff5D5D5D</color>
+    <color name="primary_800">#ff3E3E3E</color>
+    <color name="primary_900">#ff1d1d1d</color>
+
+    <color name="secondary_50">#ffe3f2fd</color>
+    <color name="secondary_100">#ffbbdefb</color>
+    <color name="secondary_200">#ff90caf9</color>
+    <color name="secondary_300">#ff64b5f6</color>
+    <color name="secondary_400">#ff42a5f5</color>
+    <color name="secondary_500">#ff2196f3</color>
+    <color name="secondary_600">#ff1e88e5</color>
+    <color name="secondary_700">#ff1976d2</color>
+    <color name="secondary_800">#ff1565c0</color>
+    <color name="secondary_900">#ff0d47a1</color>
+    <color name="secondary_A100">#ff82b1ff</color>
+    <color name="secondary_A200">#ff448aff</color>
+    <color name="secondary_A400">#ff2979ff</color>
+    <color name="secondary_A700">#ff2962ff</color>
+
+    <color name="base_color_white_alpha_0">#00ffffff</color>
+    <color name="base_color_white_alpha_10">#10ffffff</color>
+    <color name="base_color_white_alpha_15">#1Effffff</color>
+    <color name="base_color_white_alpha_20">#33ffffff</color>
+    <color name="base_color_white_alpha_30">#4Dffffff</color>
+    <color name="base_color_white_alpha_40">#66ffffff</color>
+    <color name="base_color_white_alpha_50">#80ffffff</color>
+    <color name="base_color_white_alpha_60">#99ffffff</color>
+    <color name="base_color_white_alpha_70">#B3ffffff</color>
+    <color name="base_color_white_alpha_80">#CCffffff</color>
+    <color name="base_color_white_alpha_90">#E6ffffff</color>
+    <color name="base_color_white_alpha_100">#ffffffff</color>
+
+    <color name="base_color_black_alpha_0">#00000000</color>
+    <color name="base_color_black_alpha_10">#10000000</color>
+    <color name="base_color_black_alpha_15">#1E000000</color>
+    <color name="base_color_black_alpha_20">#33000000</color>
+    <color name="base_color_black_alpha_30">#4D000000</color>
+    <color name="base_color_black_alpha_40">#66000000</color>
+    <color name="base_color_black_alpha_50">#80000000</color>
+    <color name="base_color_black_alpha_60">#99000000</color>
+    <color name="base_color_black_alpha_70">#B3000000</color>
+    <color name="base_color_black_alpha_80">#CC000000</color>
+    <color name="base_color_black_alpha_90">#E6000000</color>
+    <color name="base_color_black_alpha_100">#FF000000</color>
+
+
+
+</resources>

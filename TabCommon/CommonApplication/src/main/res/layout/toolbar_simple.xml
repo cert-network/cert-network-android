@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:background="?attr/colorToolbar">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/toolbar_btn_back"
+        style="@style/AppIconToolbar.LargeTouch"
+        android:layout_marginStart="@dimen/default_padding_margin"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/toolbar_tv_title"
+        style="@style/AppTextView.SecondaryFont.BlackActive.Headline6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/padding_margin"
+        android:layout_marginStart="@dimen/default_padding_margin_x"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toolbar_ic_secondary"
+        app:layout_constraintStart_toEndOf="@+id/toolbar_btn_back"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Toolbar Title" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/toolbar_ic_primary"
+        style="@style/AppIconClick"
+        android:layout_marginEnd="@dimen/padding_margin"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="?attr/colorIconInactive"
+        tools:visibility="visible" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/toolbar_ic_secondary"
+        style="@style/AppIconClick"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toolbar_ic_primary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="?attr/colorIconInactive"
+        tools:visibility="visible" />
+
+
+    <View
+        android:id="@+id/holder_contact_item_divider"
+        style="@style/Divider.Horizontal"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
+

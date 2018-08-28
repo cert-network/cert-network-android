@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fitsSystemWindows="false"
+    android:orientation="vertical">
+
+    <com.app.blockchain.certnetwork.appcommon.widgets.toolbar.AppToolbarLayout
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/main_toolbar_tv_title"
+                style="@style/AppTextView.SecondaryFont.BlackActive.Headline6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/padding_margin"
+                android:layout_marginStart="@dimen/default_padding_margin_x"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/app_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/main_toolbar_ic_add_cert"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/main_toolbar_ic_add_cert"
+                style="@style/AppIconClick"
+                android:layout_marginEnd="@dimen/padding_margin"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_add"
+                app:tint="?attr/colorIconInactive" />
+
+
+            <View
+                android:id="@+id/holder_contact_item_divider"
+                style="@style/Divider.Horizontal"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </com.app.blockchain.certnetwork.appcommon.widgets.toolbar.AppToolbarLayout>
+
+
+    <com.app.blockchain.certnetwork.appcommon.widgets.swipe.PullRefreshNotMoveDownLayout
+        android:id="@+id/main_pull_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:progressColor1="?attr/colorSecondary"
+        app:progressColor2="@color/text_caution"
+        app:progressColor3="@color/text_success"
+        app:progressColor4="@color/text_error"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/main_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never" />
+    </com.app.blockchain.certnetwork.appcommon.widgets.swipe.PullRefreshNotMoveDownLayout>
+
+
+</LinearLayout>

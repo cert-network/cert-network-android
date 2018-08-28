@@ -1,0 +1,149 @@
+<resources>
+
+    <!-- ================ White Active ===========================================================-->
+    <style name="AppTextView.SecondaryFont.WhiteActive.Headline1" parent="MaterialTextView.ProductSans.WhiteActive.Headline1">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteActive.Headline2" parent="MaterialTextView.ProductSans.WhiteActive.Headline2">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteActive.Headline3" parent="MaterialTextView.ProductSans.WhiteActive.Headline3">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteActive.Headline4" parent="MaterialTextView.ProductSans.WhiteActive.Headline4">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteActive.Headline5" parent="MaterialTextView.ProductSans.WhiteActive.Headline5">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteActive.Headline6" parent="MaterialTextView.ProductSans.WhiteActive.Headline6">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteActive.SubTitle1" parent="MaterialTextView.ProductSans.WhiteActive.SubTitle1">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteActive.SubTitle2" parent="MaterialTextView.ProductSans.WhiteActive.SubTitle2">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteActive.Body1" parent="MaterialTextView.ProductSans.WhiteActive.Body1">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteActive.Body2" parent="MaterialTextView.ProductSans.WhiteActive.Body2">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteActive.Button" parent="MaterialTextView.ProductSans.WhiteActive.Button">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteActive.Button.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteActive.Caption" parent="MaterialTextView.ProductSans.WhiteActive.Caption">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteActive.Overline" parent="MaterialTextView.ProductSans.WhiteActive.Overline">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteActive.Overline.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <!-- ================ White Inactive ===========================================================-->
+    <style name="AppTextView.SecondaryFont.WhiteInactive.Headline1" parent="MaterialTextView.ProductSans.WhiteInactive.Headline1">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteInactive.Headline2" parent="MaterialTextView.ProductSans.WhiteInactive.Headline2">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteInactive.Headline3" parent="MaterialTextView.ProductSans.WhiteInactive.Headline3">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteInactive.Headline4" parent="MaterialTextView.ProductSans.WhiteInactive.Headline4">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteInactive.Headline5" parent="MaterialTextView.ProductSans.WhiteInactive.Headline5">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteInactive.Headline6" parent="MaterialTextView.ProductSans.WhiteInactive.Headline6">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteInactive.SubTitle1" parent="MaterialTextView.ProductSans.WhiteInactive.SubTitle1">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteInactive.SubTitle2" parent="MaterialTextView.ProductSans.WhiteInactive.SubTitle2">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteInactive.Body1" parent="MaterialTextView.ProductSans.WhiteInactive.Body1">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteInactive.Body2" parent="MaterialTextView.ProductSans.WhiteInactive.Body2">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteInactive.Button" parent="MaterialTextView.ProductSans.WhiteInactive.Button">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteInactive.Button.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteInactive.Caption" parent="MaterialTextView.ProductSans.WhiteInactive.Caption">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteInactive.Overline" parent="MaterialTextView.ProductSans.WhiteInactive.Overline">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteInactive.Overline.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <!-- ================ White Disable ===========================================================-->
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.Headline1" parent="MaterialTextView.ProductSans.WhiteDisabled.Headline1">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.Headline2" parent="MaterialTextView.ProductSans.WhiteDisabled.Headline2">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.Headline3" parent="MaterialTextView.ProductSans.WhiteDisabled.Headline3">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.Headline4" parent="MaterialTextView.ProductSans.WhiteDisabled.Headline4">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.Headline5" parent="MaterialTextView.ProductSans.WhiteDisabled.Headline5">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.Headline6" parent="MaterialTextView.ProductSans.WhiteDisabled.Headline6">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.SubTitle1" parent="MaterialTextView.ProductSans.WhiteDisabled.SubTitle1">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.SubTitle2" parent="MaterialTextView.ProductSans.WhiteDisabled.SubTitle2">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.Body1" parent="MaterialTextView.ProductSans.WhiteDisabled.Body1">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.Body2" parent="MaterialTextView.ProductSans.WhiteDisabled.Body2">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.Button" parent="MaterialTextView.ProductSans.WhiteDisabled.Button">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.Button.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.Caption" parent="MaterialTextView.ProductSans.WhiteDisabled.Caption">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.Overline" parent="MaterialTextView.ProductSans.WhiteDisabled.Overline">
+    </style>
+
+    <style name="AppTextView.SecondaryFont.WhiteDisabled.Overline.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

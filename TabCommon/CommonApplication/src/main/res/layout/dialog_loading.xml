@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@color/primary">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/loading_dialog_tv_message"
+        style="@style/AppTextView.SecondaryFont.WhiteActive.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/loading_dialog_progress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/loading_dialog_icon"
+        style="@style/AppIcon.Active"
+        app:layout_constraintBottom_toBottomOf="@+id/loading_dialog_progress"
+        app:layout_constraintEnd_toEndOf="@+id/loading_dialog_progress"
+        app:layout_constraintStart_toStartOf="@+id/loading_dialog_progress"
+        app:layout_constraintTop_toTopOf="@+id/loading_dialog_progress"
+        app:tint="@color/icon_active_white"
+        tools:srcCompat="@drawable/mock_user"
+        />
+
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/loading_dialog_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="@dimen/padding_margin_x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loading_dialog_tv_message" />
+
+
+</android.support.constraint.ConstraintLayout>

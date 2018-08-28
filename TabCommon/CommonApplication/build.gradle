@@ -1,0 +1,63 @@
+apply plugin: 'com.android.library'
+apply from: "$project.rootDir/tools/applyCommon.gradle"
+apply from: "$project.rootDir/tools/applyTesting.gradle"
+
+android {
+    compileSdkVersion config.compileSdkVersion
+    buildToolsVersion config.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion config.minimumSdkVersion
+        targetSdkVersion config.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api project(":Common")
+    api project(":libCore")
+
+    api('com.github.thekhaeng:material-design-metric:2.0.3') {
+        exclude group: 'androidx.appcompat', module: 'appcompat'
+    }
+
+    api( "com.google.firebase:firebase-auth:$ver.firebaseAuth"){
+        exclude group: 'com.android.support', module: 'support-v4'
+    }
+
+    api 'com.github.thekhaeng:ui-adjustment-core-library:1.0.7'
+    debugApi 'com.github.thekhaeng:ui-adjustment-debug-library:1.0.10'
+    releaseApi 'com.github.thekhaeng:ui-adjustment-release-library:1.0.4'
+
+    //========================= Decorator ========================================================//
+    api 'com.github.danimahardhika:cafebar:1.1.5'
+
+
+}
+

@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="DebugTextView">
+        <item name="android:padding">@dimen/default_padding_margin</item>
+        <item name="android:background">@color/base_color_black_alpha_50</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="DebugTextView.Purple">
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+    </style>
+
+    <style name="DebugTextView.Amber">
+        <item name="android:textColor">@android:color/holo_orange_light</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <com.app.blockchain.certnetwork.appcommon.widgets.toolbar.AppToolbarLayout
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/add_cert_toolbar_btn_back"
+                style="@style/AppIconToolbar.LargeTouch"
+                android:layout_marginStart="@dimen/default_padding_margin"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_back" />
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/add_cert_toolbar_tv_title"
+                style="@style/AppTextView.SecondaryFont.BlackActive.Headline6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/padding_margin"
+                android:layout_marginStart="@dimen/default_padding_margin_x"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/add_cert_title"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/add_cert_toolbar_tv_submit"
+                app:layout_constraintStart_toEndOf="@+id/add_cert_toolbar_btn_back"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/add_cert_toolbar_tv_submit"
+                style="@style/AppTextView.SecondaryFont.SecondaryColor.Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/padding_margin_h"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/padding_margin"
+                android:text="@string/submit"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <View
+                android:id="@+id/holder_contact_item_divider"
+                style="@style/Divider.Horizontal"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </com.app.blockchain.certnetwork.appcommon.widgets.toolbar.AppToolbarLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/add_cert_edt_name_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/padding_margin_xh"
+                android:layout_marginStart="@dimen/padding_margin_xh"
+                android:layout_marginTop="@dimen/padding_margin_xx"
+                android:hint="@string/add_cert_hint_name"
+                >
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/add_cert_edt_name"
+                    style="@style/AppTextView.PrimaryFont.BlackActive.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/add_cert_edt_industry_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/padding_margin_xh"
+                    android:layout_marginStart="@dimen/padding_margin_xh"
+                    android:layout_marginTop="@dimen/padding_margin_xx"
+                    android:hint="@string/add_cert_hint_industry"
+                    >
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/add_cert_edt_industry"
+                        style="@style/AppTextView.PrimaryFont.BlackActive.Body1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/add_cert_edt_expired_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/padding_margin_xh"
+                    android:layout_marginTop="@dimen/padding_margin_xx"
+                    android:hint="@string/add_cert_hint_expired"
+                    >
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/add_cert_edt_expired"
+                        style="@style/AppTextView.PrimaryFont.BlackActive.Body1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/add_cert_edt_desc_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:layout_marginEnd="@dimen/padding_margin_xh"
+                android:layout_marginStart="@dimen/padding_margin_xh"
+                android:layout_marginTop="@dimen/padding_margin_xx"
+                android:hint="@string/add_cert_hint_desc"
+                >
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/add_cert_edt_desc"
+                    style="@style/AppTextView.PrimaryFont.BlackActive.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

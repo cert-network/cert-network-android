@@ -1,0 +1,23 @@
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'realm-android'
+apply plugin: 'kotlin-kapt'
+apply from: "$project.rootDir/tools/config.gradle"
+apply from: "$project.rootDir/tools/script-java-code-coverage.gradle"
+apply plugin: 'kotlin-allopen'
+
+allOpen {
+    // allows mocking for classes w/o directly opening them for release builds
+    annotation 'com.app.blockchain.certnetwork.common.annotation.OpenForTesting'
+}
+
+
+
+android{
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+        debug.java.srcDirs += 'src/debug/kotlin'
+        release.java.srcDirs += 'src/release/kotlin'
+    }
+}
+

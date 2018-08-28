@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="stroke_large">@dimen/default_stroke_large</dimen>
+    <dimen name="stroke">@dimen/default_stroke</dimen>
+    <dimen name="stroke_small">@dimen/default_stroke_small</dimen>
+
+    <dimen name="divider_size_large">@dimen/default_divider_size_large</dimen>
+    <dimen name="divider_size">@dimen/default_divider_size</dimen>
+
+    <dimen name="corner_small">@dimen/default_round_corner_small</dimen>
+    <dimen name="corner">@dimen/default_round_corner</dimen>
+    <dimen name="corner_large">@dimen/default_round_corner_large</dimen>
+
+    <dimen name="padding_margin_small_x">@dimen/default_padding_margin_small_x</dimen>
+    <dimen name="padding_margin_small">@dimen/default_padding_margin_small</dimen>
+
+    <dimen name="padding_margin">@dimen/default_padding_margin</dimen>
+    <dimen name="padding_margin_h">@dimen/default_padding_margin_h</dimen>
+    <dimen name="padding_margin_x">@dimen/default_padding_margin_x</dimen>
+    <dimen name="padding_margin_xh">@dimen/default_padding_margin_xh</dimen>
+    <dimen name="padding_margin_xx">@dimen/default_padding_margin_xx</dimen>
+    <dimen name="padding_margin_xxh">@dimen/default_padding_margin_xxh</dimen>
+    <dimen name="padding_margin_xxx">@dimen/default_padding_margin_xxx</dimen>
+    <dimen name="padding_margin_xxxh">@dimen/default_padding_margin_xxxh</dimen>
+    <dimen name="padding_margin_xxxx">@dimen/default_padding_margin_xxxx</dimen>
+    <dimen name="padding_margin_xxxxh">@dimen/default_padding_margin_xxxxh</dimen>
+
+    <dimen name="padding_margin_huge">@dimen/default_padding_margin_huge</dimen>
+    <dimen name="padding_margin_huge_x">@dimen/default_padding_margin_huge_x</dimen>
+    <dimen name="padding_margin_huge_xh">@dimen/default_padding_margin_huge_xh</dimen>
+    <dimen name="padding_margin_huge_xx">@dimen/default_padding_margin_huge_xx</dimen>
+    <dimen name="padding_margin_huge_xxh">@dimen/default_padding_margin_huge_xxh</dimen>
+    <dimen name="padding_margin_huge_xxx">@dimen/default_padding_margin_huge_xxx</dimen>
+    <dimen name="padding_margin_huge_xxxh">@dimen/default_padding_margin_huge_xxxh</dimen>
+    <dimen name="padding_margin_huge_xxxx">@dimen/default_padding_margin_huge_xxxx</dimen>
+
+    <!-- ===================== Text =============================================================-->
+    <dimen name="text_size_headline_1">@dimen/md_text_size_headline_1_light</dimen>
+    <dimen name="text_size_headline_2">@dimen/md_text_size_headline_2_light</dimen>
+    <dimen name="text_size_headline_3">@dimen/md_text_size_headline_3_regular</dimen>
+    <dimen name="text_size_headline_4">@dimen/md_text_size_headline_4_regular</dimen>
+    <dimen name="text_size_headline_5">@dimen/md_text_size_headline_5_regular</dimen>
+    <dimen name="text_size_headline_6">@dimen/md_text_size_headline_6_medium</dimen>
+    <dimen name="text_size_subtitle_1">@dimen/md_text_size_subtitle_1_regular</dimen>
+    <dimen name="text_size_subtitle_2">@dimen/md_text_size_subtitle_2_medium</dimen>
+    <dimen name="text_size_body_1">@dimen/md_text_size_body_1_regular</dimen>
+    <dimen name="text_size_body_2">@dimen/md_text_size_body_2_regular</dimen>
+    <dimen name="text_size_button">@dimen/md_text_size_button_medium</dimen>
+    <dimen name="text_size_caption">@dimen/md_text_size_caption_regular</dimen>
+    <dimen name="text_size_overline">@dimen/md_text_size_overline_regular</dimen>
+
+
+    <!-- ===================== Widget ===========================================================-->
+    <dimen name="toolbar_height">@dimen/md_toolbar_height</dimen>
+    <dimen name="bottom_navigation_height">56dp</dimen>
+    <dimen name="button_height">@dimen/md_button_height</dimen>
+    <dimen name="button_height_large">@dimen/md_button_height_large</dimen>
+    <dimen name="button_bottom_height">48dp</dimen>
+    <dimen name="button_bottom_height_small">40dp</dimen>
+
+
+
+</resources>

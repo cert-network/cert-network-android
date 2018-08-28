@@ -1,0 +1,40 @@
+/** Add module here **/
+includeFlat 'TabCommon'
+
+List<Module> myModuleList = new ArrayList<>()
+myModuleList.with {
+    add(new Module(name: ":AppCert", path: ":app"))
+
+    add(new Module(name: ":Example", path: "../Example"))
+    add(new Module(name: ":Common", path: "../TabCommon/Common"))
+    add(new Module(name: ":CommonApplication", path: "../TabCommon/CommonApplication"))
+    add(new Module(name: ":libRealmDatabase", path: "../TabCommon/libRealmDatabase"))
+    add(new Module(name: ":libNextwork", path: "../TabCommon/libNextwork"))
+    add(new Module(name: ":libCore", path: "../TabCommon/libCore"))
+
+}
+
+myModuleList.forEach {
+    addProject(it.getName(), it.getPath())
+}
+
+/** Method call **/
+void addProject(String name, String path) {
+    include name
+    if (path != null) {
+        if( path == ":app"){
+            project(name).projectDir = new File('app')
+        }else{
+            project(name).projectDir = new File(settingsDir, path)
+        }
+    }
+}
+
+class Module {
+    String name
+    String path
+}
+
+
+
+

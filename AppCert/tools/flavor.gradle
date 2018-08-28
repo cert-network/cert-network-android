@@ -1,0 +1,50 @@
+android {
+
+    flavorDimensions "key"
+
+    productFlavors {
+
+//        dcenKey {
+//            dimension "key"
+//        }
+//
+//        releaseKey {
+//            dimension "key"
+//            versionNameSuffix "-realease key"
+//            applicationIdSuffix ".releasekey"
+//        }
+//
+//        defaultKey {
+//            dimension "key"
+//        }
+    }
+
+//    variantFilter { variant ->
+//        def names = variant.flavors*.name
+//        if (variant.buildType.name == 'release' &&
+//                names.contains("defaultKey")) {
+//            setIgnore(true)
+//        }
+//
+//        if (variant.buildType.name == 'debug' &&
+//                (names.contains("releaseKey")
+//                        || names.contains("dcenKey"))) {
+//            setIgnore(true)
+//        }
+//    }
+
+    // ./gradlew <your-app>:assembleDevelopmentDebug -PdevBuild
+    // or
+    // Preferences ==> Compiler ==> Command-line Option -PdevBuild
+    if (project.hasProperty('devBuild')) {
+        splits.abi.enable = false
+        splits.density.enable = false
+        aaptOptions.cruncherEnabled = false
+    }
+
+    buildTypes {
+        debug {
+            ext.alwaysUpdateBuildId = false // for io.fabric
+        }
+    }
+}

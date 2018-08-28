@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/confirm_code_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/create_account_ic_back"
+                style="@style/AppIconToolbar.LargeTouch"
+                android:layout_marginBottom="@dimen/padding_margin"
+                android:layout_marginStart="@dimen/padding_margin_small"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="@dimen/padding_margin"
+                app:srcCompat="@drawable/ic_back" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/confirm_code_phone_number_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_x"
+                android:layout_marginEnd="@dimen/padding_margin_xx"
+                android:layout_marginStart="@dimen/padding_margin_xx"
+                android:layout_marginTop="@dimen/padding_margin_x"
+                app:layout_constraintTop_toBottomOf="@+id/create_account_ic_back">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/confirm_code_ic_phone_number"
+                    style="@style/AppIcon.Inactive"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_phone" />
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/confirm_code_edt_layout_phone"
+                    android:layout_width="0dp"
+                    android:layout_marginStart="@dimen/padding_margin"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/confirm_code_ic_phone_number"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/confirm_code_edt_phone"
+                        style="@style/AppTextView.PrimaryFont.Active.Body1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:enabled="false"
+                        android:focusable="false"
+                        android:hint="@string/create_account_put_info_phone_number_hint"
+                        android:imeOptions="actionDone"
+                        android:inputType="phone"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:singleLine="true" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+
+            </android.support.constraint.ConstraintLayout>
+
+
+            <com.app.blockchain.certnetwork.widget.ConfirmCodeView
+                android:id="@+id/confirm_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_huge"
+                android:layout_marginTop="@dimen/padding_margin_xxx"
+                app:countDownTimeSecond="60"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/confirm_code_phone_number_container"
+                app:layout_constraintVertical_bias="0.35" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.app.blockchain.certnetwork.appcommon.widgets.AppMaterialButton
+            android:id="@+id/confirm_code_btn_bottom_next"
+            style="@style/AppButton.BottomBlue"
+            android:text="@string/create_account_button" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

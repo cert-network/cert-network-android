@@ -1,0 +1,29 @@
+dependencies {
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.1', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    androidTestImplementation "com.android.support:support-annotations:$ver.androidSupport"
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+
+    testImplementation 'com.google.code.gson:gson:2.8.5'
+    testImplementation 'org.assertj:assertj-core:3.10.0'
+    testImplementation 'junit:junit:4.12'
+    testImplementation "org.mockito:mockito-core:$ver.mockitoCoreVersion"
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.0.0-alpha04"
+    testImplementation "org.powermock:powermock-core:$ver.powerMockVersionV2"
+    testImplementation "org.powermock:powermock-module-junit4:$ver.powerMockVersionV2"
+    testImplementation "org.powermock:powermock-api-mockito2:$ver.powerMockVersionV2"
+    testImplementation "org.hamcrest:hamcrest-library:$ver.hamcrestVersion"
+    testImplementation "org.hamcrest:hamcrest-core:$ver.hamcrestVersion"
+    testImplementation "org.hamcrest:hamcrest-library:$ver.hamcrestVersion"
+    testImplementation "org.hamcrest:hamcrest-integration:$ver.hamcrestVersion"
+
+    testImplementation("android.arch.core:core-testing:$ver.lifecycleArch", {
+        exclude group: 'com.android.support', module: 'support-compat'
+        exclude group: 'com.android.support', module: 'support-annotations'
+        exclude group: 'com.android.support', module: 'support-core-utils'
+    })
+
+}
+

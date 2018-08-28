@@ -1,0 +1,86 @@
+<resources>
+
+    <style name="AppMaterialButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textAppearance">@style/AppTextView.PrimaryFont.WhiteActive.Button</item>
+        <item name="enablePushDown">false</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size_button</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">@dimen/button_height_large</item>
+        <item name="android:minWidth">@dimen/md_button_min_width</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="cornerRadius">@dimen/button_corner</item>
+    </style>
+
+    <style name="AppButton">
+        <item name="android:textAppearance">@style/AppTextView.PrimaryFont.WhiteActive.Button</item>
+        <item name="enablePushDown">false</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size_button</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">@dimen/button_height_large</item>
+        <item name="android:minWidth">@dimen/md_button_min_width</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="AppButton.Blue" parent="AppMaterialButton">
+        <item name="backgroundTint">@color/button_blue</item>
+        <item name="rippleColor">@color/button_blue_selected</item>
+    </style>
+
+    <style name="AppButton.BlueGradient" parent="AppButton">
+        <item name="android:background">@drawable/button_blue_gradient_selector</item>
+    </style>
+
+    <style name="AppButton.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textAppearance">@style/AppTextView.PrimaryFont.WhiteActive.Button</item>
+        <item name="android:textColor">?attr/colorTextDisabled</item>
+        <item name="rippleColor">?attr/colorDivider</item>
+    </style>
+
+
+
+
+    <!--======================= Bottom button ===================================================-->
+    <style name="AppBottomMaterialButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textAppearance">@style/AppTextView.PrimaryFont.WhiteActive.Button</item>
+        <item name="android:gravity">center</item>
+        <item name="enablePushDown">false</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_button</item>
+        <item name="android:minHeight">@dimen/button_bottom_height</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="cornerRadius">0dp</item>
+    </style>
+
+    <style name="AppBottomButton">
+        <item name="android:textAppearance">@style/AppTextView.PrimaryFont.WhiteActive.Button</item>
+        <item name="android:gravity">center</item>
+        <item name="enablePushDown">false</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_button</item>
+        <item name="android:minHeight">@dimen/button_bottom_height</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+
+    <style name="AppButton.BottomBlue" parent="AppBottomMaterialButton">
+        <item name="backgroundTint">@color/button_blue</item>
+        <item name="rippleColor">@color/button_blue_selected</item>
+    </style>
+
+</resources>

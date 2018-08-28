@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">TabCustomize</string>
+
+    <string name="next">Next</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="done">Done</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading">Loading</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="approve">Approve</string>
+    <string name="save">Save</string>
+    <string name="reject">Pending…</string>
+    <string name="submit">Submit</string>
+
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+
+    <string name="empty_cert">No Certificate</string>
+
+
+    <!-- ===================== Dialog ===========================================================-->
+    <string name="dialog_loading_title">Please wait…</string>
+
+    <!-- ===================== Alert ============================================================-->
+    <string name="alert_success_result">Success</string>
+    <string name="alert_error_result">Error</string>
+
+    <string name="alert_service_unavailable">Service is unavailable please try again later.</string>
+    <string name="alert_service_no_internet">Please connect the internet.</string>
+
+    <string name="alert_error_email_empty">Please put your email.</string>
+
+
+    <!-- ===================== Create Account ===================================================-->
+    <string name="create_account_button">Create Account</string>
+    <string name="create_account_put_info_title">Put your\nPhone number</string>
+    <string name="create_account_put_info_phone_number_hint">Phone number</string>
+    <string name="create_account_put_info_name_hint">Name</string>
+
+    <string name="alert_error_mobile_number_empty">Please put your mobile number.</string>
+    <string name="alert_error_name_empty">Please put your name.</string>
+    <string name="alert_error_mobile_number_format">Mobile number is wrong format.</string>
+    <string name="alert_error_confirm_code_invalid">Code is invalid.</string>
+
+    <!-- ===================== Cert Detail ======================================================-->
+    <string name="cert_detail_your">Your Certificate</string>
+    <string name="cert_detail_approve_by">Approve by</string>
+
+    <!-- ===================== Add Cert ========================================================-->
+    <string name="add_cert_title">Add Certificate</string>
+
+    <string name="add_cert_hint_name">Name</string>
+    <string name="add_cert_hint_industry">Industry</string>
+    <string name="add_cert_hint_expired">Expired date</string>
+    <string name="add_cert_hint_desc">Description</string>
+
+    <!-- ===================== Widget ============================================================-->
+    <string name="confirm_code">Confirm code</string>
+
+    <string name="alert_error_confirm_code_empty">Please put your code.</string>
+    <string name="alert_error_confirm_code_length">Code is 6 length.</string>
+</resources>

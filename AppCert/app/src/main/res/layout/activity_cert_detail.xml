@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackgroundActivity"
+    android:fillViewport="true"
+    android:overScrollMode="never">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cert_detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cert_background">
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/cert_detail_ic_back"
+            style="@style/AppIconToolbar.LargeTouch"
+            android:layout_marginBottom="@dimen/padding_margin"
+            android:layout_marginStart="@dimen/padding_margin_small"
+            android:layout_marginTop="@dimen/padding_margin"
+            android:fitsSystemWindows="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_back"
+            app:tint="@color/icon_active_white" />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/cert_detail_tv_status"
+            style="@style/AppTextView.SecondaryFont.WhiteActive.Headline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding_margin_xx"
+            android:layout_marginTop="@dimen/padding_margin_x"
+            app:layout_constraintBottom_toTopOf="@+id/cert_detail_tv_your_certificate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cert_detail_ic_back"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="Approve" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/cert_detail_tv_your_certificate"
+            style="@style/AppTextView.PrimaryFont.WhiteActive.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding_margin_xx"
+            android:layout_marginTop="@dimen/padding_margin_x"
+            android:text="@string/cert_detail_your"
+            app:layout_constraintBottom_toTopOf="@+id/cert_detail_card_cert"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cert_detail_tv_status" />
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/cert_detail_card_cert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_margin"
+            android:background="@drawable/card_background_white"
+            android:elevation="8dp"
+            android:layout_marginStart="@dimen/padding_margin_xx"
+            android:layout_marginEnd="@dimen/padding_margin_xx"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cert_detail_tv_your_certificate"
+            app:layout_constraintVertical_bias="0"
+            >
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/cert_detail_ic_share"
+                style="@style/AppIconClick.Small"
+                android:layout_marginEnd="@dimen/padding_margin"
+                android:layout_marginTop="@dimen/padding_margin"
+                android:fitsSystemWindows="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_share" />
+
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/cert_detail_icon"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="@dimen/padding_margin_x"
+                android:layout_marginTop="@dimen/padding_margin_x"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_cert_network_gradient" />
+
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/cert_detail_image"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="72dp"
+                app:layout_constraintBottom_toTopOf="@+id/cert_detail_name_container"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed"
+                tools:background="@drawable/mock_user" />
+
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/cert_detail_name_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_margin_xxh"
+                android:background="@color/surface_white"
+                app:layout_constraintBottom_toTopOf="@+id/cert_detail_tv_approve_by"
+                app:layout_constraintTop_toBottomOf="@+id/cert_detail_image">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/cert_detail_tv_name"
+                    style="@style/AppTextView.PrimaryFont.Active.Headline6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_margin_xx"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_chainStyle="packed"
+                    tools:text="Name" />
+
+                <View
+                    android:id="@+id/cert_detail_divider"
+                    style="@style/Divider.Horizontal"
+                    android:layout_marginEnd="@dimen/padding_margin_xx"
+                    android:layout_marginStart="@dimen/padding_margin_xx"
+                    android:layout_marginTop="@dimen/padding_margin_x"
+                    app:layout_constraintTop_toBottomOf="@+id/cert_detail_tv_name" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/cert_detail_tv_cert_name"
+                    style="@style/AppTextView.PrimaryFont.Active.Headline6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_margin_xx"
+                    android:layout_marginTop="@dimen/padding_margin_x"
+                    android:singleLine="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cert_detail_divider"
+                    tools:text="Master of Engineer" />
+
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/cert_detail_tv_approve_by"
+                style="@style/AppTextView.SecondaryFont.Inactive.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_x"
+                android:layout_marginTop="@dimen/padding_margin_xh"
+                android:singleLine="true"
+                app:layout_constraintBottom_toTopOf="@+id/cert_detail_btn_save"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cert_detail_name_container"
+                app:layout_goneMarginBottom="100dp"
+                tools:text="Approve by Unknown" />
+
+            <com.app.blockchain.certnetwork.appcommon.widgets.AppButton
+                android:id="@+id/cert_detail_btn_save"
+                style="@style/AppButton.BlueGradient"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_margin_xx"
+                android:layout_marginTop="@dimen/padding_margin_xx"
+                android:text="@string/save"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cert_detail_tv_approve_by" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

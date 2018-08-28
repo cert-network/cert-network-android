@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MainActivity" parent="AppTheme.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">?attr/colorBackgroundActivity</item>
+    </style>
+
+    <style name="AddCertActivity" parent="AppTheme.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">?attr/colorBackgroundActivity</item>
+    </style>
+</resources>

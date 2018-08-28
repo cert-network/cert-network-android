@@ -1,0 +1,150 @@
+<resources>
+
+    <!-- ================ Black Active ===========================================================-->
+    <style name="AppTextView.NumberFont.BlackActive.Headline1" parent="MaterialTextView.Roboto.BlackActive.Headline1">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackActive.Headline2" parent="MaterialTextView.Roboto.BlackActive.Headline2">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackActive.Headline3" parent="MaterialTextView.Roboto.BlackActive.Headline3">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackActive.Headline4" parent="MaterialTextView.Roboto.BlackActive.Headline4">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackActive.Headline5" parent="MaterialTextView.Roboto.BlackActive.Headline5">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackActive.Headline6" parent="MaterialTextView.Roboto.BlackActive.Headline6">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackActive.SubTitle1" parent="MaterialTextView.Roboto.BlackActive.SubTitle1">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackActive.SubTitle2" parent="MaterialTextView.Roboto.BlackActive.SubTitle2">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackActive.Body1" parent="MaterialTextView.Roboto.BlackActive.Body1">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackActive.Body2" parent="MaterialTextView.Roboto.BlackActive.Body2">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackActive.Button" parent="MaterialTextView.Roboto.BlackActive.Button">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackActive.Button.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackActive.Caption" parent="MaterialTextView.Roboto.BlackActive.Caption">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackActive.Overline" parent="MaterialTextView.Roboto.BlackActive.Overline">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackActive.Overline.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <!-- ================ Black Inactive ===========================================================-->
+    <style name="AppTextView.NumberFont.BlackInactive.Headline1" parent="MaterialTextView.Roboto.BlackInactive.Headline1">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackInactive.Headline2" parent="MaterialTextView.Roboto.BlackInactive.Headline2">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackInactive.Headline3" parent="MaterialTextView.Roboto.BlackInactive.Headline3">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackInactive.Headline4" parent="MaterialTextView.Roboto.BlackInactive.Headline4">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackInactive.Headline5" parent="MaterialTextView.Roboto.BlackInactive.Headline5">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackInactive.Headline6" parent="MaterialTextView.Roboto.BlackInactive.Headline6">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackInactive.SubTitle1" parent="MaterialTextView.Roboto.BlackInactive.SubTitle1">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackInactive.SubTitle2" parent="MaterialTextView.Roboto.BlackInactive.SubTitle2">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackInactive.Body1" parent="MaterialTextView.Roboto.BlackInactive.Body1">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackInactive.Body2" parent="MaterialTextView.Roboto.BlackInactive.Body2">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackInactive.Button" parent="MaterialTextView.Roboto.BlackInactive.Button">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackInactive.Button.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackInactive.Caption" parent="MaterialTextView.Roboto.BlackInactive.Caption">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackInactive.Overline" parent="MaterialTextView.Roboto.BlackInactive.Overline">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackInactive.Overline.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <!-- ================ Black Disable ===========================================================-->
+    <style name="AppTextView.NumberFont.BlackDisabled.Headline1" parent="MaterialTextView.Roboto.BlackDisabled.Headline1">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackDisabled.Headline2" parent="MaterialTextView.Roboto.BlackDisabled.Headline2">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackDisabled.Headline3" parent="MaterialTextView.Roboto.BlackDisabled.Headline3">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackDisabled.Headline4" parent="MaterialTextView.Roboto.BlackDisabled.Headline4">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackDisabled.Headline5" parent="MaterialTextView.Roboto.BlackDisabled.Headline5">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackDisabled.Headline6" parent="MaterialTextView.Roboto.BlackDisabled.Headline6">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackDisabled.SubTitle1" parent="MaterialTextView.Roboto.BlackDisabled.SubTitle1">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackDisabled.SubTitle2" parent="MaterialTextView.Roboto.BlackDisabled.SubTitle2">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackDisabled.Body1" parent="MaterialTextView.Roboto.BlackDisabled.Body1">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackDisabled.Body2" parent="MaterialTextView.Roboto.BlackDisabled.Body2">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackDisabled.Button" parent="MaterialTextView.Roboto.BlackDisabled.Button">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackDisabled.Button.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackDisabled.Caption" parent="MaterialTextView.Roboto.BlackDisabled.Caption">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackDisabled.Overline" parent="MaterialTextView.Roboto.BlackDisabled.Overline">
+    </style>
+
+    <style name="AppTextView.NumberFont.BlackDisabled.Overline.AllCap">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppIconToolbar" parent="IconClick">
+        <item name="tint">?attr/colorIconInactive</item>
+    </style>
+
+    <style name="AppIconToolbar.LargeTouch" parent="IconClick.LargeTouch">
+        <item name="tint">?attr/colorIconInactive</item>
+    </style>
+
+    <style name="AppIcon.Large" >
+        <item name="android:layout_width">@dimen/default_icon_size_x</item>
+        <item name="android:layout_height">@dimen/default_icon_size_x</item>
+    </style>
+
+    <style name="AppIcon" >
+        <item name="android:layout_width">@dimen/default_icon_size</item>
+        <item name="android:layout_height">@dimen/default_icon_size</item>
+    </style>
+
+    <style name="AppIcon.Small" >
+        <item name="android:layout_width">@dimen/default_icon_size_small</item>
+        <item name="android:layout_height">@dimen/default_icon_size_small</item>
+    </style>
+
+    <style name="AppIcon.SmallExtra" >
+        <item name="android:layout_width">@dimen/default_icon_size_small_x</item>
+        <item name="android:layout_height">@dimen/default_icon_size_small_x</item>
+    </style>
+
+    <style name="AppIconClick" parent="IconClick">
+        <item name="tint">?attr/colorIconInactive</item>
+    </style>
+
+    <style name="AppIconClick.ExtraSmall" parent="IconClickSmall">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="tint">?attr/colorIconInactive</item>
+    </style>
+
+    <style name="AppIconClick.Small" parent="IconClickSmall">
+        <item name="tint">?attr/colorIconInactive</item>
+    </style>
+
+    <style name="AppIcon.Active" >
+        <item name="tint">?attr/colorIconActive</item>
+    </style>
+
+    <style name="AppIcon.Inactive" >
+        <item name="tint">?attr/colorIconInactive</item>
+    </style>
+
+    <style name="AppIcon.Inactive.Small" >
+        <item name="android:layout_width">@dimen/default_icon_size_small</item>
+        <item name="android:layout_height">@dimen/default_icon_size_small</item>
+    </style>
+
+    <style name="AppIcon.Disabled" >
+        <item name="tint">?attr/colorIconDisabled</item>
+    </style>
+
+    <style name="AppIcon.Disabled.Small" >
+        <item name="android:layout_width">@dimen/default_icon_size_small</item>
+        <item name="android:layout_height">@dimen/default_icon_size_small</item>
+    </style>
+
+</resources>

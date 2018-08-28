@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="@dimen/padding_margin_xh"
+    android:layout_marginEnd="@dimen/padding_margin_xh"
+    android:layout_width="match_parent"
+    android:layout_height="96dp">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/holder_profile_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/holder_profile_tv_name"
+        style="@style/AppTextView.PrimaryFont.Active.Body1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_margin"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="@dimen/padding_margin_x"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/holder_profile_tv_address"
+        app:layout_constraintEnd_toStartOf="@+id/holder_profile_tv_mobile_number"
+        app:layout_constraintStart_toEndOf="@+id/holder_profile_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="Name" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/holder_profile_tv_mobile_number"
+        style="@style/AppTextView.PrimaryFont.Inactive.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@+id/holder_profile_tv_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="+66959473169" />
+
+    <com.app.blockchain.certnetwork.widget.WalletAddressTextView
+        android:id="@+id/holder_profile_tv_address"
+        style="@style/AppTextView.PrimaryFont.Active.Body2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/holder_profile_tv_name"
+        app:layout_constraintTop_toBottomOf="@+id/holder_profile_tv_name"
+        app:textSecondaryColor="@color/text_inactive_black"
+        tools:text="34k5qqeb6FP1zgSVbgpQRbN2sdfasdfasdfasdfasd" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.app.blockchain.certnetwork.appcommon.widgets.swipe.PullRefreshNotMoveDownLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:progressColor1="@color/text_caution"
+    app:progressColor2="@color/text_success"
+    app:progressColor3="@color/text_error">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorBackgroundActivity"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</com.app.blockchain.certnetwork.appcommon.widgets.swipe.PullRefreshNotMoveDownLayout>
+
+
